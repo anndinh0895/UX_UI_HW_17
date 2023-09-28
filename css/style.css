@@ -1,0 +1,93 @@
+
+/* navigation */
+header.navigation {
+    background-color: #4A4A4A;
+    color: white;
+    width: 1240px;
+    height: 73px;
+    position: fixed;
+    overflow: hidden;
+}
+
+div.inline-block.logo {
+    width: 139px;
+    height: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav.inline-block {
+    font-family: Poly;
+    font-size: 20px;
+    text-align: left;
+    float: right;
+    padding: 25px 20px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+/* visited link */
+a:visited {
+    color: #C3C3C3;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #D3D3D3;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+  }
+
+/* body */
+.heroImg h1 {
+  font-family: Poly;
+  font-size: 108px;
+}
+
+.heroImg h3 {
+  font-family: Poly;
+  font-size: 40px;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footer */
+
+footer {
+    background-color: #4A4A4A;
+    color: white;
+    width: 1240px;
+    height: 180px;
+}
+
+nav.inline-footer {
+  font-family: Urbanist;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 20px;
+}
+
+.social-footer {
+  text-align: center;
+}
+
+.footerDesc {
+  text-align: center;
+  padding: 25px 20px;
+}
